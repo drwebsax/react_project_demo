@@ -1,0 +1,214 @@
+#client-details-container {
+    margin : 80px;
+    font-size: 20px !important;
+}
+
+#client-details-container .circles{
+
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+#client-details-container .line{
+
+    margin-top: 25px;
+    display: block;
+    border: 1px solid #80808054;
+    width: 60px;
+    height: 0px;
+   
+}
+
+#client-details-container .border-box {
+
+    margin-bottom: 50px;
+    display: inline-block;
+    width: 100%;
+    margin : 0 80 0 80;
+    border: 1px solid gray;
+    border-radius: 20px;
+   
+}
+
+
+
+#client-details-container .border-box .review-box {
+
+    margin-bottom: 50px;
+    position: relative;
+    padding: 0 50px;
+   
+}
+
+#client-details-container .border-box .review-box+img {
+    margin: auto;
+    width: 200px;
+    position: absolute;
+    top: 204px;
+    right: 130px;
+}
+
+#client-details-container .border-box button {
+
+    height: 60px;
+    
+}
+
+#client-details-container .border-box .back button  {
+
+    display: block;
+    margin: 0 auto;
+    width: 170px;
+    height: 56px;
+    
+}
+
+
+
+#client-details-container .border-box.add button {
+
+    display: block;
+    margin: 0 auto;
+    width: 170px;
+    height: 56px;
+    line-height: 1;
+    font-weight: 700;
+    
+   
+}
+
+#client-details-container .border-box .review-submit {
+
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#client-details-container .border-box .review-submit button{
+
+    margin-bottom: 5px;
+    display: block;
+    width: 170px;
+    height: 55px;
+    font-weight: 700;
+    line-height: 1;
+   
+}
+
+
+#client-details-container .border-box h1 {
+
+  text-align: center;
+   
+}
+
+#client-details-container .border-box .input-container {
+
+    display: flex;
+    justify-content: center;
+    border: opx solid gray;
+    border-radius: 20px;
+   
+}
+
+
+#client-details-container .border-box .input-container p {
+
+    margin: 0;
+    font-size: 20px;
+    padding: 0 30px;
+    font-weight: 700;
+   
+}
+
+#client-details-container .border-box .input-container.next {
+
+    margin-bottom: 30px;
+}
+
+#client-details-container .border-box .input-container .upload {
+
+    line-height: 0;
+    padding: 7px 20px;
+    height: 20px;
+   
+}
+
+
+#client-details-container .border-box .input-section {
+
+    margin: 10px;
+    width: 425px;
+    padding: 5px;
+    color: gray;
+    font-size: 18px;
+   
+}
+
+#client-details-container .border-box .input-section .radio-box{
+
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+
+#client-details-container .border-box .input-section input[type^='text'] {
+
+    margin-top: 4px;
+    padding-left : 20px;
+    font-size: 15px;
+    width: 400px;
+    border: 2px solid;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.modal-text {
+    position: relative;
+    text-align: center;
+}
+
+#modal-modal-title button{
+    
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+
+}
+
+#modal-modal-title #first{
+
+    height: 50px;
+    bottom: 23px;
+    right: 34px;
+    width: 165px;
+    font-weight: 700;
+
+}
+
+#modal-modal-title #second{
+    
+    height: 50px;
+    bottom: 23px;
+    right: 206px;
+    width: 165px;
+    font-weight: 700;
+    border: 0;
+    color: gray;
+}
+
+#modal-modal-title #xButton{
+    
+    position: absolute;
+    right: -110px;
+    top: 10px;
+    width: 165px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+

@@ -1,0 +1,34 @@
+.user-list-container {
+    margin : 80px;
+    font-size: 20px !important;
+}
+.user-list-container td{
+   
+    font-size: 17px !important;
+}
+.user-list-container .table-head th{
+    color : gray !important;
+    font-size: 20px !important;
+}
+
+.user-list-container td[id*='name_'] {
+    color: #1E90FF;
+    font-weight: 700;
+    text-decoration: none !important;
+}
+
+.user-list-container td[class*='class_email_'] {
+    width:250px;
+}
+.user-list-container td[class*='class_email_'] div {
+    width:120px;
+    padding:0 5px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+  
+}
+
+
+
+ 

@@ -1,0 +1,17 @@
+.circle-wrapper {
+    margin: 3px;
+    align-items: center;
+}
+.circle-wrapper .badge {
+
+    display: inline-block;
+    padding: 8px 18px;
+    min-width: 19px;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    color: #fefefe;
+    font-weight: 700;
+    background: #1E90FF;
+  
+}
